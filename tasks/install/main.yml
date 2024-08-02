@@ -1,0 +1,12 @@
+- name: "Install passlib python module for Ubuntu"
+  ansible.builtin.include_tasks: ubuntu/main.yml
+  when: ansible_distribution == "Ubuntu"
+
+- name: "Install passlib python module for Arch Linux"
+  ansible.builtin.include_tasks: archlinux/main.yml
+  when: ansible_os_family == "Archlinux"
+
+- name: "Install passlib python module for FreeBSD"
+  ansible.builtin.include_tasks: freebsd/main.yml
+  when: ansible_os_family == "FreeBSD"
+

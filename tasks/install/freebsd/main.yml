@@ -1,0 +1,7 @@
+- name: "Install the 'security/py-passlib' application package"
+  ansible.builtin.package:
+    name: security/py-passlib
+    state: present
+  become: true
+  become_user: root
+

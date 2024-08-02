@@ -1,0 +1,3 @@
+- name: "Install passlib python module"
+  ansible.builtin.include_tasks: install/main.yml
+

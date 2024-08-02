@@ -1,0 +1,7 @@
+- name: "Install the 'python3-passlib' application package"
+  ansible.builtin.package:
+    name: python3-passlib
+    state: present
+  become: true
+  become_user: root
+

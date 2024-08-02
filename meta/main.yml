@@ -1,0 +1,22 @@
+galaxy_info:
+  author: digimokan
+  description: "Install and configure the python passlib password-hashing module"
+  license: "MIT"
+  min_ansible_version: 2.7
+  platforms:
+    - name: Archlinux
+      versions:
+        - all
+    - name: Ubuntu
+      versions:
+        - all
+    - name: FreeBSD
+      versions:
+        - all
+  galaxy_tags:
+    - archlinux
+    - ubuntu
+    - freebsd
+    - passlib
+    - password
+
