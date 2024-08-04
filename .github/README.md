@@ -69,6 +69,10 @@ See the role `defaults` files for main role vars listings:
 
   * [defaults](../defaults/main/)
 
+Vars defined by this role, exported with `public: true`, for use in other roles:
+
+  * [export](../defaults/main/export/main.yml)
+
 ## Contributing
 
 * Feel free to report a bug or propose a feature by opening a new
