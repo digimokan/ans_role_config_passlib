@@ -1,4 +1,0 @@
-# command to execute to check if passlib is installed
-# ref: https://docs.ansible.com/ansible/latest/reference_appendices/faq.html#how-do-i-generate-encrypted-passwords-for-the-user-module
-passlib_cmd_check_installed: 'python -c "import passlib.hash"'
-

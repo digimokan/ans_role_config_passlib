@@ -1,0 +1,8 @@
+# select the password hash algorithm used
+# see options here: https://docs.ansible.com/ansible/latest/collections/ansible/builtin/password_hash_filter.html#parameter-hashtype
+passlib_password_hash_type: "sha512"
+
+# for password hashing, generate a salt that's consistent from run to run
+# ref: https://docs.ansible.com/ansible/latest/playbook_guide/playbooks_filters.html#hashing-and-encrypting-strings-and-passwords
+passlib_password_constant_salt: "{{ 65534 | random(seed=inventory_hostname) | string }}"
+
