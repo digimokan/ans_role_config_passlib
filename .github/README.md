@@ -18,10 +18,12 @@ Install and configure the python passlib password-hashing module.
 
 * Install the python [passlib](https://passlib.readthedocs.io/en/stable/lib/passlib.hash.html)
   password-hashing module.
-* Note: passlib is the preferred utility used by
+* _passlib_ is the preferred utility used by
   [ansible.builtin.password_hash module](https://docs.ansible.com/ansible/latest/collections/ansible/builtin/password_hash_filter.html),
   which in turn is used for password creation by
   [ansible.builtin.user module](https://docs.ansible.com/ansible/latest/collections/ansible/builtin/user_module.html).
+* _crypt_ is installed by default with ansible, and it's the fallback module,
+  however, using it produces a playbook deprecation warning.
 
 ## Supported Operating Systems
 
