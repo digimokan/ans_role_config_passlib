@@ -65,10 +65,6 @@ Install and configure the python passlib password-hashing module.
 
 ## Role Options
 
-See the role `defaults` files for main role vars listings:
-
-  * [defaults](../defaults/main/)
-
 Vars defined by this role, exported with `public: true`, for use in other roles:
 
   * [export](../defaults/main/export/main.yml)
